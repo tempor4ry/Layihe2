@@ -1,0 +1,562 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: RobotoMed;
+    src: url(./Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: RobotoReg;
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+
+
+.container {
+    /* margin: 0 auto; */
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 24px;
+    gap: 35px;
+
+}
+
+
+nav .links {
+    display: flex;
+    gap: 25px;
+    align-items: center
+}
+
+nav .links {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav .links li a {
+
+    color: black;
+    font-family: "RobotoReg";
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+
+
+}
+
+nav a.signUp {
+    border: none;
+    border-radius: 30px;
+    background-color: #EFAE35;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: "RobotoReg";
+    cursor: pointer;
+
+
+}
+
+.bgImage {
+
+    width: 100%;
+    height: 80vh;
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    font-size: 60px;
+
+
+}
+
+.regText {
+    font-size: 17px;
+
+}
+
+.textLinks a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #24160B;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    font-family: "RobotoReg";
+    padding-left: 3%;
+    width: 40%;
+    gap: 40px;
+
+}
+
+.aroContainer {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    gap: 25px;
+    padding: 70px 0;
+    justify-content: center;
+
+}
+
+.aroText {
+    display: flex;
+    flex-direction: column;
+    font-family: "RobotoMed";
+    gap: 40px;
+    width: 30%;
+    justify-content: center;
+
+}
+
+.aroText h1 {
+    font-size: 40px;
+    max-width: 20px;
+}
+
+.aroText p {
+    font-size: 18px;
+    font-family: "RobotoReg";
+
+
+}
+
+.aroImage {
+    width: 50%;
+
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.aroButton {
+    background-color: #EFAE35;
+    font-size: "RobotoReg";
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.borterBottom {
+    border-bottom: 2px solid #d1cece;
+    text-decoration: none;
+    color: #000;
+
+}
+
+/* SPEND CONTAINER */
+.spendContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+    align-items: center;
+}
+
+.spendTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    font-family: "RobotoReg";
+
+}
+
+
+/* text */
+
+.spendTextContainer h2 {
+    font-size: 44px;
+    padding: 22px 0;
+
+}
+
+.spendTextContainer .p1 {
+    font-size: 18px;
+    border-bottom: 2px solid #d1cece;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.spendTextContainer .p2 {
+    font-size: 58px;
+    padding-bottom: 15px;
+
+}
+
+.spendTextContainer .p3 {
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+
+.spendTextContainer .p4 {
+    font-size: 10px;
+}
+
+/* -----------------------*/
+
+/* KIND KONTAINER */
+.kindContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    align-items: center
+}
+
+.kindTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-family: "RobotoReg";
+}
+
+.kindTextContainer h2 {
+    font-size: 44px;
+    padding: 22px 0;
+
+}
+
+.kindTextContainer .p1 {
+    font-size: 18px;
+    border-bottom: 2px solid #d1cece;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.kindTextContainer .p2 {
+    font-size: 58px;
+    padding-bottom: 15px;
+
+}
+
+.kindTextContainer .p3 {
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+
+.kindTextContainer .p4 {
+    font-size: 10px;
+}
+
+/* --------------------- */
+
+
+/* recContainer */
+
+.recContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+    align-items: center;
+}
+
+
+.recTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-family: "RobotoReg";
+}
+
+.recTextContainer h2 {
+    font-size: 44px;
+    padding: 22px 0;
+
+}
+
+.recTextContainer .p1 {
+    font-size: 18px;
+    border-bottom: 2px solid #d1cece;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.recTextContainer .p2 {
+    font-size: 58px;
+    padding-bottom: 15px;
+
+}
+
+.recTextContainer .p3 {
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+
+.recTextContainer .p4 {
+    font-size: 10px;
+}
+
+
+/* girl Container */
+
+.girlContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+    align-items: center;
+
+}
+
+.girlTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-family: "RobotoReg";
+}
+
+.girlTextContainer h2 {
+    font-size: 44px;
+    padding: 22px 0;
+
+}
+
+.girlTextContainer .p1 {
+    font-size: 18px;
+    border-bottom: 2px solid #d1cece;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.girlTextContainer .p2 {
+    font-size: 58px;
+    padding-bottom: 15px;
+
+}
+
+.girlTextContainer .p3 {
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+
+.girlTextContainer .p4 {
+    font-size: 10px;
+
+}
+
+
+/* --------------- */
+
+.h2Container {
+    text-align: center;
+    font-size: 43px;
+    padding: 80px 0;
+    font-family: "RobotoReg";
+}
+
+/* .nav2Container{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.brands {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.brands a img {
+    width: 100;
+    height: 36px;
+}
+
+/* ------------------- */
+
+.bg3Image {
+    width: 100%;
+    height: 123vh;
+    background-image: url("./images/bg3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+
+}
+
+.bg3Text {
+    display: flex;
+    flex-direction: column;
+    font-family: "RobotoMed";
+    gap: 30px;
+    width: 30%;
+    /* justify-content: center; */
+    color: white;
+}
+
+.bg3Text h1 {
+    font-size: 58px;
+    display: flex;
+    flex-grow: inherit;
+}
+
+
+
+/* --------------- */
+
+.expContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 140px 0;
+}
+
+.exptextBox {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-family: "RobotoReg";
+}
+
+.exptextBox h2 {
+    font-size: 44px;
+    padding: 22px 0;
+
+}
+
+.exptextBox .p1 {
+    font-size: 18px;
+    color: #000;
+    padding-bottom: 50px;
+
+}
+
+.exptextBox .p3 {
+    font-size: 17px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d1ecec;
+
+}
+
+.appContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0
+}
+
+.apptextBox {
+    display: flex;
+    flex-direction: column;
+    font-family: "RobotoReg";
+    width: 40%;
+}
+
+.apptextBox h2 {
+    font-size: 48px;
+    padding: 22px 0;
+
+}
+
+
+.apptextBox .p1 {
+    font-family: 18px;
+    padding-bottom: 40px;
+    font-family: "RobotoReg";
+}
+
+
+.apptextBox .p3 {
+    font-size: 18px;
+    font-family: "RobotoReg";
+    padding: 10px 0;
+    width: 20%;
+    border-bottom: 2px solid #d1ecec;
+    color: #000;
+
+}
+
+
+
+.devContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 140px 0;
+}
+
+.devtextBox {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-family: "RobotoReg";
+}
+
+.devtextBox h2 {
+    font-size: 44px;
+    padding: 22px 0;
+
+}
+
+.devtextBox .p1 {
+    font-size: 18px;
+    color: #000;
+    padding-bottom: 50px;
+
+}
+
+.devtextBox .p3 {
+    font-size: 17px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d1ecec;
+
+}
+
+.getImg {
+    background-image: url("./images/getstarted.png");
+    width: 100%;
+    height: 123vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.getButton  {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    
+}
+
+.getButton button {
+    border-radius: 1px solid black;
+        padding: 20px 15; 
+}
